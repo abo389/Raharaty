@@ -30,6 +30,6 @@ class TripTest extends TestCase
 
         $response->assertStatus(200);
         $this->assertDatabaseCount("trips", 1);
-        $response->assertJson([$trip->toArray()]);
+        $response->assertJson(["data" => [$trip->toArray()]]);
     }
 }

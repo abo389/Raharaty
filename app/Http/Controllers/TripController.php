@@ -3,14 +3,16 @@
 namespace App\Http\Controllers;
 
 use App\Models\Trip;
+use App\Traits\ApiResponse;
 
 class TripController extends Controller
 {
+    use ApiResponse;
 
-    public function index()
+    function index()
     {
         $trips = Trip::all();
-        return response($trips);
+        return $this->success(200, "all trips", $trips);
     }
 
 }
