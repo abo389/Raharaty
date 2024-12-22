@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PlanController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TripController;
 use Illuminate\Http\Request;
@@ -11,3 +12,4 @@ Route::get('/user', function (Request $request) {
 
 Route::get("trips", [TripController::class, "index"]);
 Route::get("services", [ServiceController::class, "index"]);
+Route::get("plans", [PlanController::class, "index"]);
