@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PlanController;
 use App\Http\Controllers\ServiceController;
 use App\Http\Controllers\TestimonialController;
@@ -15,3 +16,4 @@ Route::get("trips", [TripController::class, "index"]);
 Route::get("services", [ServiceController::class, "index"]);
 Route::get("plans", [PlanController::class, "index"]);
 Route::get("testimonials", [TestimonialController::class, "index"]);
+Route::post("contact", [ContactController::class, "store"]);
