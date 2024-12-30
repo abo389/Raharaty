@@ -16,25 +16,25 @@ class TripSeeder extends Seeder
 
         $trips = [
             [
-                "image_link" => 'https://s3-alpha-sig.figma.com/img/47f1/c27c/f937bd2041f53c6be27a0ab05d6e5fb0?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=INgSoKx5561-jr90C0ivhjr28zM4dpj3zLNzT11vfEIWD7STpdisOxULu5sZmIP1ZisBSK9VLotmDgBK6w~UD4w69s3erEXljyKJ7Ju8hBwN1xQS7Ih8YGSz48i5Da4-dVMTkVbsRCHMSGiATt3iJE-kABXWNiX3j1oTT62m8rM2gJiVkSCUyKaBe3-Uidj2NGNeRl3YzzxDvmIsNULT~vjKZe0l-k1mU2ltaa-uMcjkIuDSAv98NyqoypyA2umAFSQF78TIKXnGPy69aPcIgtv1yb~SqcYUpE8Oqvp0zsbqhezUXpDjAvpr3-kAzjteq3JbErtwDzkl0Kgk0KuSGg__',
+                "image_link" => 'https://s3-alpha-sig.figma.com/img/47f1/c27c/f937bd2041f53c6be27a0ab05d6e5fb0?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IWV4~cUlY832wT1f1ZzMyBmxGaPypdxHXKD1EArZ6aVonMz56UNA4MmNuVcyCzJkdFdfBqFWi19WJxUTL3rWVCM1NzUlJdhqI5lh1fJzpaHhV68Dr6VXvH05kQbprnVBEe9OZVWQ3PThjNV-qYVRqDdTZGznJeqPA3U2EbrqUJ8BVUquMB5Wris7k6veXSCL1-73BvPgOOwj35yO-AXtiQutptbcHBCVn9xxQULv59RY9xpmrkt8JH-E-0GY4jQ8DenOzNJkz41pIO7n~DQp3Ixgo5fT5h4o3Hg8Ya9uESbGh6tChOGyPSVBUhenWodXDZEMt6exRrfLnEH-dAjoZg__',
                 "city" => 'اسطنبول',
                 "day_num" => '5',
                 "cost" => '1500'
             ],
             [
-                "image_link" => 'https://s3-alpha-sig.figma.com/img/55bd/f8a5/4105c492b21062d6d9b6a423915b2087?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=FKzNmiJLfDXwAeMUZnksT3Lf~tyb4oAIZ19-lP5xqzJnNOKZ3ns955~DiW~lzeTHrzzgwc6TKV1noOI7XpIZodwwrtBuaCmydoiak4eMULluZcmni4SJ7P9NINOyfit8oTm6q6E7qvysr-TxZR3tufz5ekxbuRd95dDtsjxmlPRxpcQaLaKvWFM1SnWxZtVpBHlWMDxBI9CSbTWyF-30hKecKo0vsKHxACUuTtL79rJ~RqNXPArEX40KXG-pNGvB2wz0N4rBWiu55UuV8IrzCHlbJmqXl50FfKyIK1loP0HTQbSg7DcjLQJLvJ4Ub6Ucbd1YtRQJZ8IVx~U503PoXA__',
+                "image_link" => 'https://s3-alpha-sig.figma.com/img/55bd/f8a5/4105c492b21062d6d9b6a423915b2087?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=jY2CL-u6OPihPcvCBg2gVhoXh85h5o-NDEkgqguZQNozUC12vYRNRS1hEJfMBlpFu~G6-XVF83~SI3FgQEYZamgSjRIB7CJ~Fo1e0yCtoTWo5spj~s~oa2i7W3kXWUii1E~m8lX6EVzvONMmYWMSao4-d-dqDsHbLFcLRB~RFE~ongXXpEsN7p802Jx0QxFpPQ8hrwP6BC4iNOU3jXHs~xl9YoaKmosz-8361VtClabDtUSgq~AOIw5om1CZp8Fh1Kku7jUQXuqyxBRBlFJLo11B2lvQ02~7ejLB2L3hXVQsFMSfgXMCqs~sWifq0vNtRnK7PeT8nSEkqln~cAjmvQ__',
                 "city" => 'دبي',
                 "day_num" => '3',
                 "cost" => '2500'
             ],
             [
-                "image_link" => 'https://s3-alpha-sig.figma.com/img/a283/6142/931b2a24ce57a874391912e9b764dd25?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WzYPvBsZdSTXGa~vaL7IAEnGsP7pxlPLqRWht9jmbIADNeeSf2KaY9nGXDMxK0qLZdyhx3F2WW6OV~9h7JJ8px0reJ3J~jbJ7bagCg9acEQo-sWtQvzI8AIR-DPLQ2rOGUjKePo2eQ2fFyGMPlZxUb2kIwFeb4ka7NcFAJoGFEkg3ef85gJp5olrTGsjaLzbN48bXAj3GUkANFM4BzAwnvHp3nFeeaGUdsomyyu4W6MA7eeyxpgiPiz3dngDOcrLm~16ycmBTJ~LjkV5uxqqP5W6WbuUk0GKl9mz-Jx7qy0bEt0EV3EOZ~tzY7PqfivMyxxWGwUr768GarcYrAi6CA__',
+                "image_link" => 'https://s3-alpha-sig.figma.com/img/a283/6142/931b2a24ce57a874391912e9b764dd25?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=dB4ZrIw0P3OWTXVKYmdXMbulvN~hbWM70yhcFlmfb6NPS3K~WG6RrQfPHuAOk-U8Ku7zqmVkSczu2dIrfcPxXIP53zwG7MPh4k125MGRLuYFUE4jzSLj6wx-gN~f7vvct2ijhWsqeORf3oJsY-4WsDyP~Ol3mmQh442hsLjyEiFFOmLzfeOMqT9NeswkMaaOfSBLpf5UQp-YrrC0sMD22QT-~juUdjrWMyabqqim0IN3B0r5d9oA5HnPwbMGzJM3oTovQpBqh-MEqFLCm8Y-PhmGdKiekfvtsWyrlBn4jrxqSe1N2e4LldO1cSomlBqb9UxwIR~r4ioUMrzynFVmYQ__',
                 "city" => 'القاهرة',
                 "day_num" => '3',
                 "cost" => '1250'
             ],
             [
-                "image_link" => 'https://s3-alpha-sig.figma.com/img/9f21/d0a9/e2bcf92d6fa9f81b6be74d93d652acf8?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=je82dmCdSvKRHtz9m3lfS~5PUacx7dMdcnPNDF3U970TgYZhXMd4Jd3ldvLa5Pea~m6D9tEdHBSMhJttd7-wR4HqIg8Du4-PYQJLOiRl8oAzzACb9fbwlpSOrAsTbVz4YIZ874yB20MASUtkKc3TCRcZBKTB0MdXlG62fmlTuDQ3Ei3h7RbSqL2mHzq775xiSeg3n6tb21iART2MFbWrcI5GfYz2avTuZjk0~F9DG64uKInr~Df3Z4yQ5b0F8qk96aUuqb2AfpAV21S4-VkgQsFp4nuk6tAMbHgbNDxn08P0E92rspaYqvjye6VsJE0SIviQIgnd07w0AWrN-ci26g__',
+                "image_link" => 'https://s3-alpha-sig.figma.com/img/9f21/d0a9/e2bcf92d6fa9f81b6be74d93d652acf8?Expires=1736726400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=BnK0PRoxtCiGBhjG6ADhoefnrsw0kbMcEqLD6vR92lAAtICNihtHy~oPN5UhumAjNDzs74YcFnpDr1exX9~ga3uvIRiu0bkyBZow9300bHmNuDrkXDfKO-2Clao5Rcmpvt5xS4c-ZIv00U6YtvRfcxAFDsxDjhxNrBvCYyH3RCWjGRsiIjntY58u1xIAg4zDcau10NGnbRdYgCektVzEkyM2OILor7mO6vH9614Is~Te-bJQmzcBsPWUCYi75Z5dq3LPClNq8RQZCnhJQ-RBIotIUCCwr~JAeGNN1MQgq3yaWpmZsV-FVBEm1jAuKXlvT~5RxYvkVAYZlweVLLPhgA__',
                 "city" => 'الرياض',
                 "day_num" => '2',
                 "cost" => '1500'
