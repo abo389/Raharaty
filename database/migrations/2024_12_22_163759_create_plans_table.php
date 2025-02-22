@@ -9,6 +9,8 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+    public $withinTransaction = false; // Disable transactions
+
     public function up(): void
     {
         Schema::create('plans', function (Blueprint $table) {
